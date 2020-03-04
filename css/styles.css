@@ -52,8 +52,13 @@ html {
 	height: 100%;
 }
 
+body {
+	background-color: rgb(60,60,60);
+	font: 400 1rem/1.5625rem "Open Sans", sans-serif;
+}
+
 body, p {
-	color: #787976; 
+	color: #fff; 
 	font: 400 1rem/1.5625rem "Open Sans", sans-serif;
 }
 
@@ -79,32 +84,32 @@ body, p {
 }
 
 h1 {
-	color: #484a46;
+	color: #fff;
 	font: 700 2.5rem/3rem "Montserrat", sans-serif;
 }
 
 h2 {
-	color: #484a46;
+	color: #fff;
 	font: 700 1.75rem/2.125rem "Montserrat", sans-serif;
 }
 
 h3 {
-	color: #484a46;
+	color: #fff;
 	font: 700 1.375rem/1.75rem "Montserrat", sans-serif;
 }
 
 h4 {
-	color: #484a46;
+	color: #fff;
 	font: 700 1.25rem/1.625rem "Montserrat", sans-serif;
 }
 
 h5 {
-	color: #484a46;
+	color: #fff;
 	font: 700 1.125rem/1.5rem "Montserrat", sans-serif;
 }
 
 h6 {
-	color: #484a46;
+	color: #fff;
 	font: 700 1rem/1.375rem "Montserrat", sans-serif;
 }
 
@@ -133,10 +138,11 @@ a.white,
 
 .testimonial-author {
 	font: 700 1rem/1.375rem "Montserrat", sans-serif;
+	color:white;
 }
 
 strong {
-	color: #484a46;
+	color: #fff;
 }
 
 .section-title {
@@ -805,7 +811,7 @@ input[type='checkbox'] {
 /*     05. Intro     */
 /*********************/
 .basic-1 {
-	padding-top: 6.5rem;
+	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
 
@@ -873,7 +879,7 @@ input[type='checkbox'] {
 	position: absolute;
 	width: 6rem;
 	height: 6rem;
-	background: url('../images/hexagon-green.svg') center center no-repeat;
+	background: url('../images/hexagon-white.svg') center center no-repeat;
 	background-size: 6rem 6rem;
 }
 
@@ -1112,7 +1118,7 @@ input[type='checkbox'] {
 	display: block;
 	padding-left: 1.5rem;
 	border-radius: 0.125rem;
-	background: linear-gradient(to bottom right, #fe7b00, #1bd1a7);
+	background: linear-gradient(to bottom right, #fe7b00, #fe7b00);
 }
 
 .tabs #tab-1 .progress-bar.first {
@@ -1547,7 +1553,7 @@ input[type='checkbox'] {
 	left: 0;
 	width: 1.75rem;
 	height: 1.75rem;
-	background: url('../images/hexagon-green.svg') center center no-repeat;
+	background: url('../images/hexagon-white.svg') center center no-repeat;
 	background-size: 1.75rem 1.75rem;
 	transition: all 0.2s ease;
 }
@@ -1613,7 +1619,7 @@ input[type='checkbox'] {
 
 .counter #counter .cell {
 	display: inline-block;
-	width: 9.5rem;
+	width: 20rem;
 	margin-bottom: 0.75rem;
 }
 
@@ -1688,7 +1694,7 @@ input[type='checkbox'] {
 	position: absolute;
 	width: 3.25rem;
 	height: 3.25rem;
-	background: url('../images/hexagon-green.svg') center center no-repeat;
+	background: url('../images/hexagon-white.svg') center center no-repeat;
 	background-size: 3.25rem 3.25rem;
 	transition: all 0.2s ease;
 }
@@ -2048,7 +2054,7 @@ a:hover.back-to-top {
 		width: 1.625rem;
 		height: 1.625rem;
 		position: absolute;
-		background: url('../images/hexagon-green.svg') center center no-repeat;
+		background: url('../images/hexagon-white.svg') center center no-repeat;
 		background-size: 1.625rem 1.625rem;
 		transition: all 0.2s ease;
 	}
