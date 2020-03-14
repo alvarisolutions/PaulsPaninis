@@ -150,6 +150,7 @@ strong {
 	font: 500 0.8125rem/1.125rem "Montserrat", sans-serif;
 }
 
+
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 1.875rem 1.1875rem 1.875rem;
@@ -828,7 +829,7 @@ input[type='checkbox'] {
 }
 
 .basic-1 .testimonial-author {
-	color: #484a46;
+	color: rgb(200,200,200);
 }
 
 /* Hover Animation */
@@ -980,7 +981,7 @@ input[type='checkbox'] {
 /*************************/
 .accordion .area-1 {
 	height: 27rem;
-	background: url('../images/details-1-background.jpg') center center no-repeat;
+	background: url('../images/boy.gif') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1241,7 +1242,7 @@ input[type='checkbox'] {
 }
 
 .slider .testimonial-author {
-	color: #484a46;
+	color: rgb(200,200,200);
 }
 
 
@@ -1775,7 +1776,7 @@ a.back-to-top {
 }
 
 a:hover.back-to-top {
-	background-color: #13aa87; 
+	background-color: rgb(100,100,100); 
 }
 
 
@@ -2067,7 +2068,7 @@ a:hover.back-to-top {
 	.navbar-custom .fa-stack-1x {
 		font-size: 0.6875rem;
 		line-height: 1.625rem;
-		color: #fff;
+		color: rgb(100,100,100);
 		transition: all 0.2s ease;
 	}
 
